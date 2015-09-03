@@ -1,0 +1,7 @@
+body{
+  padding: 50px;
+}
+
+#recent-post{
+  border-right: 1px solid #666;
+}

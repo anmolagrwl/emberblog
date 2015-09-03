@@ -1,3 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <a class="navbar-brand" href="#">Bloggr</a>
+  <ul class="nav navbar-nav">
+    <li>
+      {{#link-to 'about'}}About{{/link-to}}
+    </li>
+    <li>
+      {{#link-to 'posts'}}Post{{/link-to}}
+    </li>
+  </ul>
+</nav>
 
-{{outlet}}
+<h1 id="title">Welcome to Bloggr</h1>
+
+<body>
+  {{outlet}}
+</body>
+
