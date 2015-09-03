@@ -133,4 +133,4 @@ inside posts.hbs, add:
     <p>{{post.title}} by {{post.author}}</p>
   {{/each}}
 </div>
-10.
+10.fdhfdgf
